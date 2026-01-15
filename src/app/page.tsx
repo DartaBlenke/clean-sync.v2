@@ -2,15 +2,10 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
+    <div className='font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20'>
       <h1>Welcome to CleanSync</h1>
       <h3>Your data synchronization solution.</h3>
-      <p>
-        <Link href="/admin/dashboard">Dashboard</Link>
-      </p>
-      <p>
-        <Link href="/admin">Admin page</Link>
-      </p>
+
     </div>
   );
 }
